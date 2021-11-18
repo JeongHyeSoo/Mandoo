@@ -5,7 +5,8 @@
 
 # JDT-specific (Eclipse Java Development Tools)      
 .classpath
-
+# Eclipse Core       
+.project
 
 ### Eclipse ###
 .metadata
