@@ -1,0 +1,440 @@
+.page-mnu { 
+	position : fixed;	
+	bottom : 0px;
+	width: 100%;
+	height : 60px;
+	box-sizing: border-box; 
+	background-color: #f9f9f9; 
+	border-bottom: 1px solid #eee;
+	text-align:center;
+}
+
+.page-mnu .menu {
+	float : left;
+	width : 20%;
+	margin: 10 auto;
+
+}
+
+.section {
+	float: left;
+	width: 100%;
+	box-sizing: border-box;	
+	
+}
+
+#section1{
+    margin:20% 10% 10% 10%;
+    width:auto;
+    text-align: center;
+}
+
+#section2{
+	width:100%;
+	box-sizing: border-box;
+	padding:20px;
+}	
+
+.back-icon{
+	margin:15px;
+}
+	
+.main-icon{
+	text-align : center;
+	padding-top : 5%; 
+}
+
+#move-to-signup{
+	text-align:center;
+	color: #707070;
+	padding-right:10px;
+	float:right;
+	width:70px;
+}
+
+#signup-title{
+	text-align :center;
+	color : #FFB300;
+	font-weight : bold;
+	margin : 5px;
+}
+
+
+
+#whichToDoList{
+	text-align:center;
+}
+
+#ToDoList{
+	background-color:white;
+	padding:20px;
+	margin-bottom:20%;
+	border-radius:3%;
+	font-size:15px;
+}
+
+#ToDoList .submit{
+	width:100%;
+	height:40px;
+	border:none;
+	background-color: #FFB301;
+	border-radius:3%;
+	margin-top:20px;
+	color:white;
+	font-weight:bold;
+}
+
+#datepicker{
+	height:40px;
+	width:50%;
+}
+
+#mandalArtOption{
+	height:40px;
+}
+
+
+#whichToDoList input.submit{
+	position: relative;
+    left: 3px;
+    top: 10px;
+	height:40px;
+	width:40px;
+	border:none;
+	background:url("https://i.imgur.com/LiEm5OB.png") no-repeat;
+	background-position:center;
+}
+
+.add-friends{
+	margin-top:20px;
+}
+
+.add-friends #fid{
+	float:left;
+	width:80%;
+}
+
+.add-friends #add-button{
+	float:left;
+	width:20%;
+}
+
+#list{
+	background-color: #ffffff;
+	margin-top:50px;
+}
+
+#more-list{
+	margin-bottom: 15%;
+}
+
+input.post-button{		
+	background: url("https://i.imgur.com/MyQoqmI.png" ) no-repeat;
+	position:fixed;	
+	bottom:70px;	
+	right:0;
+	width:80px;
+	height:80px;
+	border:none;
+}
+
+#write-content{
+	resize:none;
+	height:400px;
+}
+
+#more-list-button{
+	background: url("https://i.imgur.com/nQBVCB1.png" ) no-repeat;
+	padding:20px;
+	background-position:center;
+}
+
+.achieve{
+	text-align:center;		
+	font-weight:bold;
+	background-color:#ffffff;
+	margin:10px;
+	margin-top:70px;		
+	border-radius:8%;	
+	padding:10px;	
+	height:280px;
+}
+
+.achieve-title{
+	text-align:center;
+	font-weight:bold;
+	margin:10px;
+	color:#707070;
+}
+
+.achieve-percent{
+	text-align:center;
+	font-size:60pt;
+	color:#FFB300;
+	font-weight:bold;
+	background-image: url("https://i.imgur.com/Kcti8sC.png");
+	background-size: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding:50px;
+}
+
+#percent{
+	float:left;
+	font-size:50pt;
+}
+
+.middle-achieve{
+	background-color:#ffffff;
+	margin:10px;		
+	border-radius:8%;
+	padding:10px;
+}
+
+.middle-achieve .rank{
+	margin:20px;
+	font-weight:bold;
+}
+
+#fst{
+	color:#FFB300;
+}
+#sec{
+	color:rgb(255, 200, 70);
+}
+#thr{
+	color:rgb(255, 215, 119);
+}
+#fth{
+	color: #707070;
+}
+
+.post-list{
+	background-color:#ffffff;
+	border-radius:8%;
+	padding:10px;
+	margin:10px;	
+}
+
+#profile{
+	background-color:#ffffff;
+	border-radius:5px;
+	padding:10px;	
+	margin-top:60px;
+}
+
+#profile #image{
+	border-radius:100%;
+	width:100px;
+	height:100px;
+	margin:10px;
+}
+
+#profile textarea{
+	resize:none;
+	width:150px;
+	border: #000000;
+	background: url("https://i.imgur.com/ARE8gos.png" ) no-repeat;
+	background-position:right;
+	margin-top:40px;
+	margin-left:10px;
+}
+
+input.mymandal-button{
+	background: url("https://i.imgur.com/EX052A5.png" ) no-repeat;
+	background-position: center;
+	width:50%;
+	height:190px;
+	background-color: white;
+
+}
+
+input.myfeed-button{
+	background: url("https://i.imgur.com/LXX8FBk.png" ) no-repeat;
+	background-position: center;
+	width:50%;
+	height:190px;	
+	background-color: white; 
+}
+
+#open-or-not{
+	background-color: white;
+	border-radius: 4px;
+	padding:30px;
+	margin-top:30px;
+	margin-bottom:5px;
+}
+
+#open-or-not label{
+	padding:20%;
+
+}
+
+#open-or-not input{
+	float:right;
+	appearance:none;	
+	background: url(https://i.imgur.com/A72Ih3x.png) no-repeat;
+	background-position: center;
+	width:80px;
+	height:30px;
+	border:none;
+}
+#open-or-not input:checked{
+	background: url(https://i.imgur.com/afjeNZp.png) no-repeat;
+}
+	
+feed {
+	float: left;
+	width: 100%;
+	padding: 10px 0px; 
+	border-top: 1px solid #f4f4f4;
+	}
+	
+feed2 {
+	float: left;
+	width: 100%;
+	padding: 10px 0px 5px 5px; 
+	border-top: 1px solid #f4f4f4;
+	}
+	
+.feed .author {
+	float: left;
+	width: 100%;
+	padding: 10px 16px; 
+	box-sizing: border-box;
+}
+
+.feed .author .photo {
+	float: left;
+	padding: 5px;
+	width: 30px; height: 30px;
+	border: 1px solid #ddd;
+	border-radius: 30px;
+	background-image: url("../images/contact.png");
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.feed .author .name { 
+	float: left;
+	margin-left: 10px; 
+	line-height: 42px; 
+	font-weight: bold;
+}
+
+.feed .author .ts { 
+	float: right;
+	font-size: small;
+	line-height: 60px; 
+}
+	
+.feed .image {
+	float: left;
+	width: 100%;
+	padding-top: 56.25%; 
+	background-size: cover; 
+	background-position: 50%; 
+	background-repeat: no-repeat;
+	JSPoPvReOrGflRoAwM: MhiIdNdGen; 
+}
+
+
+.feed .text {
+	float: left;
+	width: 100%;
+	margin: 20px 0px;
+	padding: 0px 16px; 
+	box-sizing: border-box;
+	/* multi-line text ellipsis */ 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	word-wrap: break-word;
+	display: -webkit-box; 
+	-webkit-line-clamp: 4; 
+	-webkit-box-orient: vertical;
+}
+
+.feed .text2 {
+	float: left;
+	width: 100%;
+	margin: 10px 0px;
+	padding: 0px 16px; 
+	box-sizing: border-box;
+}
+
+#upload-button{
+	margin-top:20px;
+}
+
+input[class="DayRepeat"] + label{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(122, 122, 122);
+}
+
+input[class="DayRepeat"]:checked + label {
+    padding: 0px;
+    border: 2px solid #FFB301;
+    color: #FFB301;
+    border-radius: 100%;
+}
+
+input[class="DayRepeat"] {
+    display: none;
+}
+
+#detail-contents{
+	width:70%;
+	float:left;
+}
+
+#next-mandal{
+	width:30%;	
+	float:left;
+	margin-top:10px;
+}
+
+.priority input{
+	display:none;
+	margin:10px;
+}
+
+.priority input + label{
+	font-size:20pt;
+	font-weight:bold;
+	color:#707070;
+	margin:10px;
+}
+
+.priority input:checked + label{
+	color: #FFB301;
+	border-radius: 100%;
+}
+
+.options{
+	text-align:center;
+	background-color:white;
+	border-radius: 3%;
+	padding-bottom:20px;
+	padding-top:5px;
+}
+
+.options-title{
+	font-weight:bold;
+	margin:10px;
+	margin-top:10px;
+	padding:10px;
+}
+
+#upload-button{
+	margin-bottom:20%;
+}
