@@ -22,13 +22,13 @@
     transition:.3s;
     position: relative;
 }
-#box41{
+#box73{
   background-color: #FFB300;
   font-size: 20px;
   font-weight: bold;
   z-index:8;
   }
-#box5,#box23,#box59,#box77,#box14,#box32,#box50,#box68{
+#box65,#box66,#box67,#box68,#box69,#box70,#box71,#box72{
   background-color: rgb(255, 255, 255);}
 
 .box:hover {
@@ -47,44 +47,36 @@
 }
 
 
-#box5.show{
-    background: rgb(241, 241, 241);
-    animation: translate5 0.7s forwards;
+#box65.show{
+    animation: translate65 0.7s forwards;
 }
-#box14.show{
-    background: rgb(255, 255, 255);
-    animation: translate14 0.7s forwards;
+#box66.show{
+    animation: translate66 0.7s forwards;
 }
-#box23.show{
-    background: rgb(241, 241, 241);
-    animation: translate23 0.7s forwards;
-}
-#box32.show{
-  background: rgb(255, 255, 255);
-  animation: translate32 0.7s forwards;
-}
-#box41.show{
-  background: rgb(197, 197, 197);
-}
-#box50.show{
-  background: rgb(255, 255, 255);
-  animation: translate50 0.7s forwards;
-}
-#box59.show{
-  background: rgb(241, 241, 241);
-  animation: translate59 0.7s forwards;
+#box67.show{
+    animation: translate67 0.7s forwards;
 }
 #box68.show{
-  background: rgb(255, 255, 255);
   animation: translate68 0.7s forwards;
 }
-#box77.show{
-  background: rgb(241, 241, 241);
-  animation: translate77 0.7s forwards;
+#box69.show{
+  animation: translate69 0.7s forwards;
+}
+#box70.show{
+  animation: translate70 0.7s forwards;
+}
+#box71.show{
+  animation: translate71 0.7s forwards;
+}
+#box72.show{
+  animation: translate72 0.7s forwards;
+}
+#box73.show{
+  background: #FFB300;
 }
 
 
-  @keyframes translate5
+  @keyframes translate65
   {
     0%,100%{
     }
@@ -97,7 +89,7 @@
     }
   }
 
-  @keyframes translate14
+  @keyframes translate66
   {
     0%,100%{
     }
@@ -110,8 +102,8 @@
     }
   }
 
-  @keyframes translate23
-  {
+  @keyframes translate67
+    {
     0%,100%{
     }
   
@@ -123,7 +115,7 @@
     }
   }
 
-  @keyframes translate32
+  @keyframes translate68
   {
     0%,100%{
     }
@@ -136,7 +128,7 @@
     }
   }
 
-  @keyframes translate50
+  @keyframes translate69
   {
     0%,100%{
     }
@@ -149,7 +141,7 @@
     }
   }
 
-  @keyframes translate59
+  @keyframes translate70
   {
     0%,100%{
     }
@@ -162,7 +154,7 @@
     }
   }
   
-  @keyframes translate68
+  @keyframes translate71
   {
     0%,100%{
     }
@@ -174,7 +166,7 @@
       transform:  translate(0%,-100%);
     }
   }
-  @keyframes translate77
+  @keyframes translate72
   {
     0%,100%{
     }

@@ -1,8 +1,3 @@
-/**
- * 
- */
-	
-	
 var contents = new Array();
 var dayArr = new Array();
 var lank = new Array();
@@ -26,7 +21,7 @@ for(var j=0;j<567;j++){
  // 만다라트 입력
  
     // 1번 큰 박스
-contents[5]="건강";
+contents[65]="건강";
 
 contents[2]="하체+유산소";
 dayArr[7*(2-1)+2]=1;
@@ -53,7 +48,7 @@ lank[8]=1;
 
 
     // 2번 큰 박스
-contents[14]="영어";
+contents[66]="영어";
 
 contents[12]="단어 암기 + 구문독해";
 for(var i=0;i<7;i++)
@@ -70,7 +65,7 @@ dayArr[7*(14-1)+0]=1;
 lank[14]=3;
 
    // 3번 큰 박스
-contents[23]="취미";
+contents[67]="취미";
 
 contents[20]="크로키 10분";
 for(var i=0;i<7;i++)
@@ -78,17 +73,17 @@ dayArr[7*(20-1)+i]=1;//20번째 항목, 매일
 lank[20]=4;
 
     // 4번 큰 박스
-contents[32]="관계";
+contents[68]="관계";
 
 
 
     // 5번 큰 박스
-contents[41]="정혜수";
+contents[73]="정혜수";
 
 
 
     // 6번 큰 박스
-contents[50]="전공";
+contents[69]="전공";
 
 contents[47]="TIL 기록 - 의미있는 커밋";
 for(var i=0;i<7;i++)
@@ -102,7 +97,7 @@ lank[48]=3;
 
 
     // 7번 큰 박스
-contents[59]="돈";
+contents[70]="돈";
 
 contents[57]="알바 (3시간 이상 내 시간으로 쓰기)";
 dayArr[7*(57-1)+6]=1;//57번째 항목, 토요일
@@ -112,7 +107,7 @@ lank[57]=2;
 
 
     // 8번 큰 박스
-contents[68]="";
+contents[71]="";
 
     // 9번 큰 박스
-contents[77]="";
+contents[72]="";
